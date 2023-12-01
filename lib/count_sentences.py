@@ -4,7 +4,7 @@ class MyString:
   pass
 
   def __init__(self, value = ''):
-    self.value = value
+    self._value = value
   
   def set_value(self, value):
     if (type(value) == str):
